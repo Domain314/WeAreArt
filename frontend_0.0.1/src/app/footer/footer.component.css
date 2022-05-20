@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    position: fixed;
+    bottom: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content p {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.content h1 {
+    font-size: 12px;
+}
+
+.content h1:hover {
+    color: #f7f9ef;
+}
+
+.impressum-link {
+    display: flex;
+}
+.impressum-link:hover {
+    cursor: pointer;
+}
