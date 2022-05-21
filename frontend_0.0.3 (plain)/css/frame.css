@@ -12,7 +12,9 @@
     background-color: #f7f9ef;
     border: solid 3px black;
     transition: .3s ease;
+    z-index: 100;
 }
+
 
 #goup:hover {
     cursor: pointer;
@@ -116,17 +118,17 @@
         position: fixed;
         z-index: 1;
     }
-    
+
     .tl {
         top: 20px;
         left: 20px;
     }
-    
+
     .tr {
         top: 20px;
         right: 20px;
     }
-    
+
     .bl {
         bottom: 20px;
         left: 20px;
@@ -135,7 +137,7 @@
         bottom: 20px;
         right: 20px;
     }
-    
+
     .line {
         width: calc(100vw - 60px);
         height: 3px;
@@ -144,15 +146,15 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    
+
     .top {
         top: 28px;
     }
-    
+
     .bottom {
         bottom: 28px;
     }
-    
+
     .vertical-line-left {
         height: calc(100vh - 80px);
         width: 3px;
@@ -162,7 +164,7 @@
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     .vertical-line-right {
         height: calc(100vh - 80px);
         width: 3px;
