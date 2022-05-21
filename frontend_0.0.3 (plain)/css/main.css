@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+}
+
+body {
+    min-height :100vh;
+    display: flex;
+    background-image: linear-gradient(0deg, #FDE8E1, #C4B6FA);
+    background-repeat: repeat;
+}

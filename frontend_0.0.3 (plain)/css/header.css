@@ -1,0 +1,54 @@
+.header-container {
+    position: fixed;
+    top: 80px;
+    z-index: 1000;
+}
+
+.header-content {
+    padding:0px 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
+.links h2 {
+    font-size: 22px;
+    margin-right: 20px;
+    transition: .3s ease;
+}
+
+@media screen and (max-width: 800px) {
+    .links h2 {
+        font-size: 12px;
+    }
+    .header-content {
+        padding: 0px 40px;
+    }
+    .header-container {
+        top: 60px;
+    }
+}
+
+.links h2:hover {
+    background-color: transparent;
+    color: #f7f9ef;
+    cursor: pointer;
+}
+
+.logo {
+    width: 80px;
+    height : 50px;
+    background-image: url("/img/logo2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .3s ease;
+}
+
+.logo:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}

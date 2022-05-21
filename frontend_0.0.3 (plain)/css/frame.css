@@ -1,0 +1,175 @@
+
+#goup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 80px;
+    bottom: 80px;
+    background-image: url("../img/goup.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f7f9ef;
+    border: solid 3px black;
+    transition: .3s ease;
+}
+
+#goup:hover {
+    cursor: pointer;
+    transform: scale(0.97);
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    background-color: #f7f9ef;
+    border: solid 4px;
+    position: fixed;
+    z-index: 1;
+}
+
+.tl {
+    top: 30px;
+    left: 30px;
+}
+
+.tr {
+    top: 30px;
+    right: 30px;
+}
+
+.bl {
+    bottom: 30px;
+    left: 30px;
+}
+.br {
+    bottom: 30px;
+    right: 30px;
+}
+
+.line {
+    width: calc(100vw - 60px);
+    height: 4px;
+    background-color: black;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top {
+    top: 43px;
+}
+
+.bottom {
+    bottom: 43px;
+}
+
+.vertical-line-left {
+    height: calc(100vh - 119px);
+    width: 4px;
+    background-color: black;
+    position: fixed;
+    left: 43px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.vertical-line-right {
+    height: calc(100vh - 119px);
+    width: 4px;
+    background-color: black;
+    position: fixed;
+    right: 43px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 800px) {
+    #goup {
+        width: 40px;
+        height: 40px;
+        bottom: 60px;
+        right: 60px;
+    }
+
+    .box {
+        width: 20px;
+        height: 20px;
+        background-color: #f7f9ef;
+        border: solid 3px;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .tl {
+        top: 20px;
+        left: 20px;
+    }
+    
+    .tr {
+        top: 20px;
+        right: 20px;
+    }
+    
+    .bl {
+        bottom: 20px;
+        left: 20px;
+    }
+    .br {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .line {
+        width: calc(100vw - 60px);
+        height: 3px;
+        background-color: black;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .top {
+        top: 28px;
+    }
+    
+    .bottom {
+        bottom: 28px;
+    }
+    
+    .vertical-line-left {
+        height: calc(100vh - 80px);
+        width: 3px;
+        background-color: black;
+        position: fixed;
+        left: 28px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .vertical-line-right {
+        height: calc(100vh - 80px);
+        width: 3px;
+        background-color: black;
+        position: fixed;
+        right: 28px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

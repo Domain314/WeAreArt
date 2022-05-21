@@ -1,0 +1,221 @@
+<!--We are Art-->
+<!--v.0.0.3----->
+<!--Dominik Englert, Artjom Moisejev-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--private styles-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/register.css">
+
+    <!--google font koulen-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>We are art</title>
+</head>
+
+<body>
+    <div class="main">
+        
+        <!-------------------------------------------------->
+        <!-----------------------FRAME---------------------->
+        <!-------------------------------------------------->
+        <div class="boxes">
+            <div class="box tl"></div>
+            <div class="box tr"></div>
+            <div class="box bl"></div>
+            <div class="box br"></div>
+        </div>
+
+        <div class="top-bottom-lines">
+            <div class="line top"></div>
+            <div class="line bottom"></div>
+        </div>
+
+        <div class="left-right-lines">
+            <div class="vertical-line-left"></div>
+            <div class="vertical-line-right"></div>
+        </div>
+
+        <div id="goup" onclick="scrollUp()">
+            <!--button in background-->
+        </div>
+
+        <!-------------------------------------------------->
+        <!-----------------------HEADER--------------------->
+        <!-------------------------------------------------->
+        <div class="header-container">
+            <div class="header-content">
+                <div class="links">
+                    <h2 onclick="show_about()">Ueber uns</h2>
+                    <h2 onclick="show_register()">Registrieren</h2>
+                </div>
+                <div class="logo" id="about"></div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------->
+        <!-----------------------FOOTER--------------------->
+        <!-------------------------------------------------->
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="impressum-link">
+                    <p>We Are Art: </p>
+                    <h1 id="imprint">Impressum</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------->
+        <!-----------------------ABOUT---------------------->
+        <!-------------------------------------------------->
+        <div id="about-container" class="about-container">
+            <div class="about-content">
+
+                <h1 class="title">We Are Art</h1>
+
+                <div class="picture">
+                    <!--picture in background-->
+                </div>
+
+                <div class="absatz_1">
+
+                    <p>We are art schafft eine neue Plattform fuer Kuenstler:innen, ob in Musik, Gestaltung oder der
+                        bildenden
+                        Kunst um einen direkten Kontakt zu der Community und den Konsument:innen zu ermoeglichen.</p>
+                </div>
+
+                <div class="absatz_2">
+                    <h1 class="end title">Wer sind wir?</h1>
+                    <p>Wir sind Stefan, Artjom, Emmanuel, Bastian und Dominik. Ein junges Gruendungsteam aus Wien. Uns
+                        liegt die
+                        Kunst sehr am Herzen, deshalb wollen wir eine neue Plattform schaffen, welche es Kuenstler:innen
+                        ermoelicht ihre Kunst direkt an die Konsumenten zu verkaufen, ohne Abhaengigkeit von grossen
+                        Instutionen
+                        - mit transparenter, nachhaltiger und fairer Bezahlung.</p>
+                </div>
+
+                <div class="absatz_3">
+                    <h1 class="title">Warum brauchen wir dich?</h1>
+                    <p>Wir sind momentan dabei die Plattform zu erschaffen, zu programmieren, zu gestalten und lernen
+                        taeglich
+                        neues dazu. Fuer einen erfolgreichen Start wollen wir direkt mit einer grossen Bandbreite an
+                        Kunst an
+                        die Oeffentlichkeit treten und brauchen dich als eine:n unsere ersten Kuenstler:innen. Vorallem
+                        aber
+                        brauchen wir dein Feedback! Falls du interessiert bist, dann lass uns gerne offene Fragen oder
+                        Ideen da
+                        - unter Registrieren gibt es dafuer ein eigenes Feld.</p>
+                </div>
+
+                <div class="absatz_4">
+                    <h1 class="end title">Warum brauchst du uns?</h1>
+                    <p>Hast du dich schon einmal geaegert ueber eine Bezahlung von weit weniger als einem Cent pro
+                        stream? Hast
+                        du dich schon einmal gefragt wie bzw. wo du deine ganzen Bilder und Gemaelde verkaufen sollst,
+                        bzw.
+                        deiner Community (die dich sicher unterstuetzen will) nahebringen kannst? Genau da kommen wir
+                        ins Spiel.
+                        Wir schaffen einen Marktplatz, der es dir ohne Anmeldegebuehr ermoeglicht deine Kunst fuer einen
+                        von dir
+                        festgelegten Preis direkt an deine Community weiterzuverkaufen. Darueber hinaus verdienst du bei
+                        jedem
+                        Weiterverkauf deiner Kunst mit. Der Preis und die Abgaben bleiben dabei die ganze Zeit
+                        transparent und
+                        fair.</p>
+                </div>
+
+                <div class="absatz_5">
+                    <h1 class="title">Wie funktioniert das ueberhaupt?</h1>
+                    <p>Kurzgesagt: Mittels NFTs und Blockchain Technologien. Das heisst vereinfacht: Deine Kunst bekommt
+                        beim
+                        Upload einen Token, welcher das Werk als Original kennzeichnet. Der Weiterverkauf erfolgt dann
+                        mittels
+                        Blockchain, welches ein grosses und dezentrales Netzwerk ist, welches ermoeglicht, dass die
+                        Endkund:innen direkt dein Produkt kaufen, ohne dass eine Transaktion ueber eine Bank oder
+                        aehnliche
+                        Institutionen noetig ist. Ja, wir werden uns einen Teil vom Gewinn behahlten: Um die Plattform
+                        zu
+                        stellen, unsere Codes zu pflegen und vor allem um sie wieder in dich als Kuenstler:in zu
+                        investieren in
+                        Form von Featurings und Vorschuessen fuer neue Kunstwerke. Wieviel das dann genau sein wird,
+                        wirst du
+                        und werden auch wir noch erfahren. Wir garantieren aber jetzt schon fuer Fairness und vor allem
+                        Transparenz.</p>
+                </div>
+
+                <div class="absatz_6">
+                    <h1 class="end title">Interessiert?</h1>
+                    <p>Haben wir dein Interesse geweckt? Wenn ja, dann freuen wir uns sehr, wenn du dich bei uns
+                        registrierst.
+                        Wir werden uns dann bald bei dir melden. Mit deiner Registrierung schreiben wir dich auf eine
+                        Liste,
+                        potenzieller erster Kuenstler:innen - du riskierst damit noch gar nichts. Mit deinen Daten gehen
+                        wir
+                        selbstverstaendlich verantwortungsvoll um (siehe Impressum!). Auch wenn du noch skeptisch sein
+                        solltest
+                        oder andere Ideen hast freuen wir uns uber eine Nachricht von dir! Wir freuen uns auf dich!</p>
+                    <p class="namen">Stefan, Artjom, Emmanuel, Bastian, Dominik</p>
+
+                    <!--BUTTON-->
+                    <!-- <button id="register">Registrieren</button> -->
+
+                </div>
+                <!--closing about-content div-->
+            </div>
+
+            <!--closing about-container div-->
+        </div>
+
+        <!-------------------------------------------------->
+        <!-----------------------REGISTER------------------->
+        <!-------------------------------------------------->
+        <div id="register-container" class="register-container">
+            <div class="register-content">
+                <h1>Komm an Board!</h1>
+                <p class="text">Melde dich jetzt fuer unser Pilotprojekt an. Wir werden dich kontaktieren, sobald
+                    wir mit <em>We Are Art</em> in die Alpha Phase Uebergehen.</p>
+                <label>Name</label>
+                <input id="name" name="name" type="text" class="input" placeholder="enter your name*">
+                <label>Email</label>
+                <input id="email"  type="email" class="input" placeholder="enter your email*">
+                <label>Mobil (optional)</label>
+                <input id="mobile"  type="text" class="input" placeholder="enter your phone (optional)">
+                <label>Stadt (optional)</label>
+                <input id="city"  type="text" class="input" placeholder="enter your hometown (optional)">
+                <label>Welche Kunst machst du? (optional)</label>
+                <textarea id="art"  class="input textfield" placeholder="What art do you do?"></textarea>
+                <label>Noch Fragen? (optional)</label>
+                <textarea id="questions" class="input last" placeholder="questions / ideas?"></textarea>
+
+                <!--BUTTON-->
+                <button onclick="passData()" id="register">Registrieren</button>
+            </div>
+
+            <!--closing register-container div-->
+        </div>
+
+        <!--closing div main-->
+    </div>
+
+    <script src="js/routing.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
