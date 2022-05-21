@@ -1,3 +1,20 @@
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
 .box {
     width: 30px;
     height: 30px;
@@ -63,7 +80,7 @@
     transform: translateY(-50%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .box {
         width: 20px;
         height: 20px;

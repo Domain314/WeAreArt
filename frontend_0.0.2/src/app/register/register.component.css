@@ -12,8 +12,12 @@
 .content {
     width: 100%;
     max-width: 600px;
-    min-width: 400px;
-    padding: 0 80px;
+    min-width: 300px;
+    padding: 0 50px;
+}
+
+.text {
+    padding-bottom: 30px;
 }
 
 .input {
@@ -50,7 +54,7 @@
 }
 
 .last {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 label {

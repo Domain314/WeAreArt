@@ -1,0 +1,101 @@
+.container {
+    padding: 150px 80px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 120px 50px;
+    }
+}
+
+.picture {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/artpic.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.end {
+    text-align: end;
+}
+
+.title {
+    padding-bottom: 30px;
+}
+
+.absatz_1 {
+    text-align: justify;
+}
+
+.absatz_2 {
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.absatz_3 {
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.absatz_4 {
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.absatz_5 {
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.absatz_6 {
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.namen {
+    padding-top: 30px;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+
+/*BUTTON*/
+/* From uiverse.io by @kiru2741 */
+button {
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 3px solid black;
+    background-color: white;
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+   }
+   
+   button::before {
+    content: 'Registrieren';
+    /*Button's value/text-content */
+    position: absolute;
+    top: -14%;
+    left: 7%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+   }
+   
+   button:hover::before {
+    top: 0;
+    left: 0;
+   }

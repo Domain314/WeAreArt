@@ -4,6 +4,13 @@
     bottom: 80px;
 }
 
+@media screen and (max-width: 1000px) {
+    .container {
+        bottom: 40px;
+    }
+
+}
+
 .content {
     display: flex;
     justify-content: space-around;

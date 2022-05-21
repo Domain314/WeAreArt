@@ -50,4 +50,10 @@
     background-image: url("../img/logo2.png");
     background-size: contain;
     background-repeat: no-repeat;
+    transition: .3s ease;
+}
+
+.logo:hover {
+    transform: scale(0.98);
+    cursor: pointer;
 }
